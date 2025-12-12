@@ -1,14 +1,24 @@
-<head>
-  <!-- ... other tags ... -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { sans: ['Inter', 'sans-serif'] },
-          colors: { brand: { pink: '#F08080', red: '#ff4444' } }
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLVD Vine - Apparel & Clergy Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ['Inter', 'sans-serif'] },
+            colors: { brand: { pink: '#F08080', red: '#ff4444' } }
+          }
         }
       }
-    }
-  </script>
-</head>
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/Index.tsx"></script>
+  </body>
+</html>
